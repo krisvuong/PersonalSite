@@ -6,9 +6,11 @@ head {
 
 body {
     color: white;
-    background-image: linear-gradient( rgb(37, 67, 234), rgb(117, 15, 250) );
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient( rgb(45, 68, 223), rgb(112, 94, 216) );
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 80px 50px 0px;
     
     /*
     background-repeat: no-repeat;
