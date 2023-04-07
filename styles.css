@@ -1,0 +1,31 @@
+head {
+    background-color: rgb(37, 67, 234);
+}
+
+
+
+body {
+    color: white;
+    background-image: linear-gradient( rgb(37, 67, 234), rgb(117, 15, 250) );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    /*
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    */
+}
+
+
+.header {
+    font-size: 50px;
+
+}
+
+.subheader {
+    font-size: 30px;
+    font-weight: 300;
+}
+
