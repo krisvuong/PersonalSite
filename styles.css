@@ -42,7 +42,67 @@ body {
 
 #icons a {
     padding: 0px 5px;
+    display: inline-block;
 }
+
+
+
+
+#resume-icon {
+    background-color: black;
+    content: url('images/resume_icon.png');
+    width: 40px;
+}
+
+#resume-icon:hover {
+    content: url('images/resume_hovered_icon.png');
+    width: 40px;
+}
+
+#github-icon {
+    background-color: black;
+    content: url('images/github_icon.png');
+    width: 40px;
+}
+
+#github-icon:hover {
+    content: url('images/github_hovered_icon.png');
+    width: 40px;
+}
+
+#linkedin-icon {
+    background-color: black;
+    content: url('images/linkedin_icon.png');
+    width: 40px;
+}
+
+#linkedin-icon:hover {
+    content: url('images/linkedin_hovered_icon.png');
+    width: 40px;
+}
+
+#email-icon {
+    background-color: black;
+    content: url('images/email_icon.png');
+    width: 40px;
+}
+
+#email-icon:hover {
+    content: url('images/email_hovered_icon.png');
+    width: 40px;
+}
+/*
+#hello {
+    background-color: black;
+    content: url('images/resume_icon.png');
+    width: 90px;
+}
+
+#hello:hover {
+    content: url('images/resume_hovered_icon.png');
+    width: 90px;
+}
+*/
 
 #landing {
     background-image: linear-gradient( rgb(37, 67, 234), rgb(118, 134, 239) );
