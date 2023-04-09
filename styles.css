@@ -1,5 +1,12 @@
+@font-face { font-family: SFProBold; src: url('fonts/SFPRODISPLAYBOLD.otf'); }
+@font-face { font-family: SFProRegular; src: url('fonts/SFPRODISPLAYREGULAR.otf'); }
+@font-face { font-family: SFProMedium; src: url('fonts/SFPRODISPLAYMEDIUM.otf'); }
+@font-face { font-family: SFProUltraLightItalic; src: url('fonts/SFPRODISPLAYULTRALIGHTITALIC.otf'); }
+@font-face { font-family: SFProLightItalic; src: url('fonts/SFPRODISPLAYLIGHTITALIC.otf'); }
+
 html {
     scroll-behavior: smooth;
+    
 }
 
 
@@ -15,6 +22,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    font-family: SFProRegular;
 }
 
 * {
@@ -44,9 +52,6 @@ body {
     padding: 0px 5px;
     display: inline-block;
 }
-
-
-
 
 #resume-icon {
     background-color: black;
@@ -114,7 +119,9 @@ body {
     padding: 180px 100px;
 }
 
-
+.typed-cursor {
+    color: rgba(255, 255, 255, 0.5);
+}
 
 .emphasize {
     font-style: italic;
@@ -122,12 +129,14 @@ body {
 
 .header {
     font-size: 50px;
+    font-family: SFProBold;
 
 }
 
 .subheader {
     font-size: 30px;
     font-weight: 300;
+    font-family: SFProRegular;
 }
 .projects-btn {
     text-align: center;
@@ -136,6 +145,7 @@ body {
 
 #projects-btn {
     background-color: rgba(255, 255, 255, 0.4);
+    font-family: SFProRegular;
     color: rgb(45, 68, 223);
     border: none;
     border-radius: 12px;
@@ -180,14 +190,83 @@ body {
 #projects {
     padding: 100px 100px 0px;
     background-image: linear-gradient( rgb(118, 134, 239), rgb(244, 245, 255));
-    height: 100vh;
 }
-
 
 #projects h2 {
     font-size: 40px;
+    font-family: SFProBold;
 }
 
-#next-thing {
-    margin: 500px 0px;
+.project-display {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    min-height: 311px;
+    color:rgb(79, 56, 209);
+    transition-duration:0.6s;
+}
+
+
+.project-display img {
+    width: 500px;
+    border-radius: 15px;
+    border: 3px solid rgb(79, 56, 209);
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+
+.project-display h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 40px 20px 0px;
+    font-family: SFProMedium;
+}
+
+.project-display h4 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.project-display h5 {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: SFProLightItalic;
+    margin: 10px 20px 40px;
+    opacity: 0.6;
+}
+
+.project-display a {
+    margin: 50px 20px 50px 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color:rgb(79, 56, 209);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.project-display:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+  
+
+
+.project-display a:hover{
+    background-color: rgb(121, 97, 255);
+}
+
+#about-me {
+    padding: 100px 100px 0px;
+    background-image: linear-gradient( rgb(244, 245, 255), rgb(244, 245, 255));
+    height: 100vh;
+}
+
+#about-me h2 {
+    font-size: 40px;
+    color:rgb(58, 78, 193);
 }
