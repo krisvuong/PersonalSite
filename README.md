@@ -1,2 +1,2 @@
 # My personal website!  
-Temporarily hosted [here](https://krisvuong.w3spaces.com/)
+Showcase of personal projects, work and volunteer experience, and about me!
